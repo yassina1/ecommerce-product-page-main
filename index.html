@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/shop-svgrepo-com (2).svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="resources/style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+<body>
+    <header>
+      <div id="sneakersSign">
+          <h1>sneakers</h1>
+      </div>
+      <div class="nav">
+        <div class="hamburger" id="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="top-images">
+        <div class="side-img">
+          <img id="cart-icon" class="cart-img" src="images/icon-cart.svg" alt="">
+          <span id="quant">0</span>
+        </div>
+        <div class="person">
+          <img class="person" src="images/image-avatar.png" alt="">
+        </div>
+      </div>
+    </header>
+
+   <div class="container">
+      
+      <div class="sneaker-abt">
+        <div class="shoeImg">
+          <img id="main-image" src="images/image-product-1.jpg" alt="">
+          <div class="click-image">
+            <div> <img src="images/image-product-1-thumbnail.jpg" alt="" class="thumbnail"></div>
+           <div> <img src="images/image-product-2-thumbnail.jpg" alt="" class="thumbnail"></div>
+           <div> <img src="images/image-product-3-thumbnail.jpg" alt="" class="thumbnail"> </div>
+           <div> <img src="images/image-product-4-thumbnail.jpg" alt="" class="thumbnail"></div>
+            
+          </div>
+        </div>
+        
+        <div class="shoe-details">
+          <h6>SNEAKER COMPANY</h6>
+          <h1>Fall Limited sneakers</h1>
+          <p>These low-profile sneakers are your perfect casual Wear companion. Featuring a durable rubber outerSole. 
+            They'll withstand everything the weather
+            can offer.
+          </p>
+          <div class="price-container">
+            <h3 class="price">£125.00 <span class="discount">50%</span></h3>
+            <div class="oldprice">
+                <p>£250.00</p>
+            </div>
+        </div>
+        
+  
+          <div class="addToCrt">
+            <div class="quantity-controls">
+              <button class="decrease-quantity">-</button>
+              <span class="quantity">0</span>
+              <button class="increase-quantity">+</button>
+          </div>
+          <button id="add">Add to cart</button>
+          </div>
+            
+        </div>
+     
+
+      </div>
+
+      <div id="cart" class="cart-container">
+        <button id="close-cart">✖</button>
+        <h2>Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        
+    </div>
+    
+
+   </div>
+  
+  
+  <script src="resources/script.js"></script>
+</body>
+</html>
