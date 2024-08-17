@@ -403,6 +403,8 @@ header{
     text-decoration: none;
 }
 
+
+
 @media screen and (max-width: 992px) {
 
     .sneaker-abt {
@@ -484,6 +486,11 @@ header{
         margin: 0 auto;
     }
     
+    .price-container {
+        text-align: left;
+        position: relative;
+        right: 60px;
+    }
 
     .shoeImg img{
         width: 400px;
@@ -499,7 +506,7 @@ header{
         width: 100%;
         margin: 0 auto;
         position: relative;
-        right: 10px;
+        right: 4px;
     }
 
     #add{
@@ -514,20 +521,27 @@ header{
         width: 100%;
        margin: 0 auto;
        position: relative;
-       left: 8px;
-     
+       right: 60px;
+        top: 10px;
     }
 
+    .oldprice p {
+        position: relative;
+        bottom: 20px;
+       
+    }
+
+    
     .shoe-details{
         position: relative;
-        top: 560px;
+        top: 500px;
         right:260px;
     }
 
     .shoe-details p {
         width: 150%;
-        font-size: 1.5em;
-        text-align: center;
+        font-size: 1.2em;
+      text-align: left;
         position: relative;
         right: 60px;
         margin-bottom: 60px;
@@ -569,7 +583,8 @@ header{
         margin: 0 auto;
         position: relative;
         top: 30px;
-        right: 4px;
+        right: 60px;
+        text-align: left;
     }
 
     .checkout {
